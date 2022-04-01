@@ -1,0 +1,13 @@
+body {
+	background-color: RGB(243, 189, 105);
+}
+
+h1 {
+	background-color: #da6110; 
+	border-style: dotted;
+	color: #662900;
+}
+
+img {
+	padding: 20px;
+}
