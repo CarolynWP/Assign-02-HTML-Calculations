@@ -1,13 +1,33 @@
 body {
-	background-color: RGB(243, 189, 105);
+	background-color: RGB(224, 130, 66);
 }
 
 h1 {
-	background-color: #da6110; 
-	border-style: dotted;
 	color: #662900;
 }
 
-img {
+.margin {
 	padding: 20px;
+}
+
+h3 {
+	color: #662900;
+}
+
+/* code and class made by w3 schools, I changed the top and left numbers */
+.top-left {
+	position: absolute;
+  top: 222px;
+  left: 113px;
+}
+
+/* code and classes made by w3 schools. I just added the right: property */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+	right: 100px;
 }

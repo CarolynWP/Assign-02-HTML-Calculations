@@ -26,7 +26,63 @@
 	</head>
 	
 	<body>
-		<h1>Hexagonal Prism Calculator</h1>
-		<img src="./images/honeycomb.jpg" alt="lots of bees">
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+			<div class="container">
+				<div class="row">
+  <div class="column">
+    <img src="./images/background.png" width= "500px" alt="background">
+  </div>
+  <div class="column">
+    <img src="./images/shape.png" width="250px" alt="shape">
+  </div>
+				</div>
+			</div>	
+				<h1><div class="top-left">Hexagonal Prism Calculator</div>
+		<div class="margin">
+			
+			<!-- images side-by-side -->
+			<div class="container">
+				<div class="row">
+  <div class="column">
+    <img src="./images/honeycomb.jpg" width="600px" alt="bees">
+  </div>
+  <div class="column">
+    <img src="./images/honeycomb_bowl.jpg" width="500px" alt="bowl">
+  </div>
+				</div>
+			</div>	
+			
+			<!-- explanation -->
+			<h3>Use this to calculate the surface area and volume of a hexagonal prism!</h3>
+			<!-- Base -->
+			<form action="#">
+				<div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="base">
+    <label class="mdl-textfield__label" for="base">Base</label>
+    <span class="mdl-textfield__error">Your input is not a number!</span>
+  </div>
+</form>
+		
+		<!-- Height-->
+<form action="#">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height">
+    <label class="mdl-textfield__label" for="height">Height</label>
+    <span class="mdl-textfield__error">Your input is not a number!</span>
+  </div>
+</form>
+			
+			<!-- button -->
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="calculate()">
+          Submit
+    </button>
+ 	<h6>
+    <div id="answers">
+      <div id="surface-area"></div>
+			 <div id="volume"></div>
+    </div>
+  </h6>
+			<img src="./images/honey.jpg" height="200px" width="1200px" alt="honey">
+		</div>
 	</body>
 </html>
