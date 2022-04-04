@@ -8,6 +8,6 @@ function calculate() {
 	let volume = 3*Math.sqrt(3)/2*base**2*height
 
 	//output
-	document.getElementById('surface-area').innerHTML = 'The surface area of this hexagonal prism will be ' + surface.toFixed(2)
-	document.getElementById('volume').innerHTML = 'The volume of this hexagonal prism will be ' + volume.toFixed(2)
+	document.getElementById('surface-area').innerHTML = 'The surface area of this hexagonal prism will be ' + surface.toFixed(2) + " m²."
+	document.getElementById('volume').innerHTML = 'The volume of this hexagonal prism will be ' + volume.toFixed(2) + "m²."
 }
